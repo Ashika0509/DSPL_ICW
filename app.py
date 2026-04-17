@@ -206,6 +206,10 @@ elif page == "Advanced Analysis":
             color_continuous_scale="RdBu_r",
             title="Correlation Matrix (Multivariate)"
         )
+        fig.update_layout(
+        height=700,
+        xaxis_tickangle=-45
+    )
         st.plotly_chart(fig, use_container_width=True)
     else:
         st.warning(" 🚨 Not enough data available to generate the correlation matrix.")
