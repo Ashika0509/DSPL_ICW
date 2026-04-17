@@ -19,8 +19,6 @@ df = pd.read_csv("cleaned_indicators_lka.csv")
 #Sidebar Navigation
 page = st.sidebar.selectbox("Navigation", ["About", "Home", "Advanced Analysis"])
 
-from google.colab import drive
-drive.mount('/content/drive')
 
 # Sidebar Navigation
 page = st.sidebar.selectbox("📍Navigation", ["About", "Home", "Advanced Analysis"])
