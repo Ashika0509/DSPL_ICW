@@ -16,9 +16,6 @@ st.set_page_config(
 #Load data
 df = pd.read_csv("cleaned_indicators_lka.csv")
 
-#Sidebar Navigation
-page = st.sidebar.selectbox("Navigation", ["About", "Home", "Advanced Analysis"])
-
 # Sidebar Navigation
 page = st.sidebar.selectbox("📍Navigation", ["About", "Home", "Advanced Analysis"])
 
