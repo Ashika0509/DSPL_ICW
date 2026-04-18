@@ -69,7 +69,7 @@ elif page == "Home":
 
     year_range = st.sidebar.slider(
         "Select Year Range:",
-        int(df['Year'].min()), int(df['Year'].max()), (2000, 2024)
+        int(df['Year'].min()), int(df['Year'].max()), (2000, 2023)
     )
 
     filtered_df = df[
